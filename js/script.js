@@ -10,6 +10,10 @@ $(function() {
 
     $('#sidebarMenuTree').metisMenu();
 
+    if($("#sidebar li>a[href='"+window.location.href+"']").length>0) {
+        $("#sidebar li>a[href='"+window.location.href+"']").addClass("active");
+    }
+
 });
 
 //Loads the correct sidebar on window load,

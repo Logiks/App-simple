@@ -24,10 +24,10 @@
   <body {$PAGE.BODY_CLASS} {$PAGE.BODY_ATTRIBUTES} >
   	<div id="wrapper" class='wrapper'>
   		<div id='header'>
-		{component src='header'}
+			{component src='header'}
 		</div>
 		<div id='sidebar'>
-	    {component src='sidebar'}
+	    	{component src='sidebar'}
 	    </div>
 	    <div id="page-wrapper">
 	        {viewpage}

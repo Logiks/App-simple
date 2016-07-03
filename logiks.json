@@ -1,11 +1,11 @@
 {
     "name": "_backend",
-    "version": "1.0",
+    "version": "2.0",
     "status": "alpha",
     "type": "app",
-    "package":"olgks.digiOffice",
-    "description": "Basic Office Managment Suite, a good place to start planning your new office management application",
-    "keywords": "Office Managment Suite Resource Planning Business",
+    "package":"olgks._backend",
+    "description": "A simple webapp with a simple structure and easy to follow.",
+    "keywords": "Admin, boilerplate, theme, logiks, bootstrap",
     "license": "MIT License",
     "homepage": "https://github.com/LogiksApps/_backend",
     "repository": {
@@ -21,7 +21,11 @@
         ".git",
         "Readme.txt"
     ],
-    "dependencies": [],
+    "dependencies": {
+        "modules":{
+            "uiDemo":"*"
+        }
+    },
     "devDependencies": [],
     "permissions":[],
     "schema":[],
