@@ -1,7 +1,3 @@
-# Logiks Backend App Boilerplate
+# AppLess Admin/Backend
 
-A simple webapp with a simple structure and easy to follow.
-
-Features:
-+ Admin Theme with sidebar, header and workspace
-+ UI Templates complete with forms, tables, components etc.
+AppLess Admin cum Support allows AppLess team to manage accounts, do onboarding etc
