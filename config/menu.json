@@ -1,0 +1,23 @@
+{
+	"": {
+		"title": "Home"
+	},
+	"modules/uiDemo/general": {
+		"title": "General"
+	},
+	"modules/uiDemo/components": {
+		"title": "components"
+	},
+	"modules/uiDemo/forms": {
+		"title": "forms"
+	},
+	"modules/uiDemo/reports": {
+		"title": "reports"
+	},
+	"modules/uiDemo/icons": {
+		"title": "icons"
+	},
+	"modules/uiDemo/misc": {
+		"title": "misc"
+	}
+}

@@ -1,38 +1,13 @@
 <?php
 if(!defined('ROOT')) exit('No direct script access allowed');
 
-$menuArr = [
-        ""=> [
-            "title"=> "Home"
-        ],
-        "modules/uiDemo/general"=> [
-            "title"=> "General"
-        ],
-        "modules/uiDemo/components"=> [
-            "title"=> "components"
-        ],
-        "modules/uiDemo/forms"=> [
-            "title"=> "forms"
-        ],
-        "modules/uiDemo/reports"=> [
-            "title"=> "reports"
-        ],
-        // "modules/uiDemo/views"=> [
-        //     "title"=> "views"
-        // ],
-        // "modules/uiDemo/gallery"=> [
-        //     "title"=> "gallery"
-        // ],
-        // "modules/uiDemo/calendars"=> [
-        //     "title"=> "calendars"
-        // ],
-        "modules/uiDemo/icons"=> [
-            "title"=> "icons"
-        ],
-        "modules/uiDemo/misc"=> [
-            "title"=> "misc"
-        ],
-    ];
+$menuF = APPROOT."config/menu.json";
+if(file_exists($menuF)) {
+    $menuArr = json_decode(file_get_contents($menuF), true);
+}
+
+if(!$menuArr) $menuArr = [];
+
 echo "<ul class='sidebar-nav'>";
 foreach($menuArr as $a=>$b) {
     $link = _link($a);
